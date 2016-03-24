@@ -2,4 +2,4 @@ sudo: required
 services:
   - docker
 script:
-  - docker build --rm --tag test:$COMMIT
+  - docker build --rm --tag test:$COMMIT .
