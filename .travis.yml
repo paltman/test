@@ -4,3 +4,4 @@ services:
   - docker
 script:
   - docker build --rm --tag test:$COMMIT .
+  - env
